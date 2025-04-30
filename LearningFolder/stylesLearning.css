@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  background-color: #f4f4f4;
+}
+
+main {
+  display: flex;
+  flex-direction: row; /* Ensure containers are side by side */
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Space between containers */
+}
+ 
+.visual-container {
+  width: 600px;
+  height: 400px;
+  border: 1px solid #ccc;
+  background-color: white;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+
